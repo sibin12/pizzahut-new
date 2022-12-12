@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Sharp Sans Bold Display No1,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+height: 60px;
+display: flex;
+}
+.mainlogo{
+    margin-top: 13px;
+    margin-left: 250px;
+    
+}
+.btn{
+   width: 80px;
+   height: 40px;
+    border: none;
+    margin-left: 888px;
+   padding-top: 18px;
+    
+    
+}
+.page1{
+    width:1600px;
+    height:400px;
+}
+.bimg{
+    width:1600px;
+    height:400px;
+    background-image: url(images/photo1.jpg) ;
+    
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto 100%
+    
+}
+.delivery{
+    margin-top: -114px;
+    margin-left: 530px;
+    position: absolute;
+    width:500px;
+    height: 300px;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+    border: 0 solid #0e1d33;
+    z-index: 400px;
+    justify-content: space-evenly;
+    border-radius:5px;
+}
+.dthead{
+    width: 500px;
+    height: 75px;
+   display: flex;
+   border-radius:5px;
+}
+.dhead{
+    margin-top: 3px;
+    padding-left:60px;
+    display: flex;
+    width: 250px;
+    height: 60px;
+    border-radius:5px;
+    padding-top: 14px;
+    background-color: #fff;
+    cursor: pointer;
+    
+}
+#title{
+    font-size: 1.2rem;
+    line-height: 1.5;
+        font-weight: 400;
+
+}
+.thead{
+    margin-left: 3px;
+    padding-left:60px;
+    padding-top: 5px;
+    margin-top: 15px;
+    display: flex;
+    width: 250px;
+    height: 55px;
+    background-color:rgb(189, 180, 180);
+    border-radius:5px;
+    cursor: pointer;
+}
+.dtext{
+width: 500px;
+height: 225px;
+background-color:#fff;;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 22px 0px;
+}
+.hline{
+    margin-top: 280px;
+    width: 100%;
+    height: 40px;
+    background-color:#fff;
+}
+.ltext{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 625px;
+    width: 320px;
+    height: 50px;
+    background-color:white
+}
+.page2{
+width: 100%;
+height: 390px;
+justify-content:center;
+display: flex;
+padding-left: 40px;
+padding-right: 40px;
+margin-right: auto;
+margin-left: auto;
+}
+.img2{
+margin-right: 5px;
+width: 600px;
+height: 390px;
+
+}
+.img3{
+    margin-left: 2px;
+    width: 600px;
+height: 390px;
+
+}
+
+.page2btn{
+    width: 79%;
+    height: 50px;
+    background-color: rgb(53, 154, 53);
+    border-radius: 7px;
+justify-content:center;
+margin-left: 200px;
+}
+.page2bt1{
+    cursor:pointer;
+     width: 1200px;height:50px ;
+     font-size:24px;
+     background-color:#0a8020;;color: white;
+     border-radius: 7px;border: none;
+     }
+ .page2bt1:hover{
+   background-color:rgb(21, 103, 21);
+ }
+
+.footer
+{margin-top: 40px;
+    width: 100%;
+    height: 520px;
+    background-color:rgb(0,0,0)
+}
+.subfooter{
+    width: 80%;
+    height: 520px;
+    margin-left: 185px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction: column;
+}
+.subfoot1{
+    width: 100%;
+    height: 220px;
+    justify-content: space-evenly;
+    float: left;
+}
+.subf1{
+    float: left;
+    width: 25%;
+    height:220px ;
+
+}
+
+.subf2{
+    float: left;
+    width: 25%;
+    height:220px ;
+}
+.subf3{
+    float: left;
+    width: 25%;
+    height:220px ;
+
+}
+.subf4{
+    float: left;
+    width: 25%;
+    height:220px ;
+}
+.fhead{
+    padding-top: 30px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: Sharp Sans Semibold Display No1,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    color: #fff;
+    font-weight: 600;
+    
+}
+.flist{
+    font-size: .8rem;
+    font-weight: 400;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+.subfoot2{
+    width:100% ;
+    height: 50px;
+    justify-content:center;
+   display: flex;
+}
+.apple{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+}
+.subfoot3{
+   float: left;
+    width: 100%;
+    height: 60px;
+    justify-content:space-evenly;
+    display: flex;
+    margin-top: 30px;
+}
+.ftext1{
+   float: left;
+width: 50%;
+height: 50px;
+display: flex;
+}
+.ftxt1{
+    padding-top: 10px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.btn2{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+}
+.ficons{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.iconhead{
+    width: 100%;
+    height: 23px;
+
+}
+.inlinef{
+    padding-top: 6px;
+    display: inline-flex;
+    list-style: none;
+   text-align: center;
+   padding-left: 150px;
+}
+.footertext{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #78838c;
+    font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 1.75;
+}
+.fssai{
+    margin-top: -30px;
+    height: 74px;
+    width: 78px;
+    margin-left: 550px;
+    justify-content: center;
+}
+
+.btnlast{
+    width:200px ;
+    height:50px;
+     font-size: 18px;margin-left:70px;background:  white;border-radius: 8px;cursor: pointer;
+}
+
+.btnlast:hover{
+   background-color:rgb(189, 182, 182)
+}
